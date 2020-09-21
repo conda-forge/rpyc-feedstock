@@ -122,5 +122,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@comrumino](https://github.com/comrumino/)
 * [@mtsolmn](https://github.com/mtsolmn/)
 

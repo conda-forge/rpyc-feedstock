@@ -5,9 +5,13 @@ Home: https://github.com/tomerfiliba-org/rpyc
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rpyc-feedstock/blob/master/LICENSE.txt)
 
 Summary: Transparent, Symmetric Distributed Computing
+
+Development: https://github.com/tomerfiliba-org/rpyc
+
+Documentation: https://rpyc.readthedocs.io/
 
 RPyC (pronounced like are-pie-see), or Remote Python Call, is a
 transparent library for symmetrical remote procedure calls,

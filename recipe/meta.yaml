@@ -32,7 +32,6 @@ test:
     - rpyc.utils
   commands:
     - pip check
-    - rpyc_registry.py --help
   requires:
     - pip
 

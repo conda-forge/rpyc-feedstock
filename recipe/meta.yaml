@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tomerfiliba-org/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 7cb2b714c56356f3cfe3294ed6aa86f733f0ab18f51b3a331cbcebcde67ee4d6
+  sha256: 03059990f904e5f9af31e410f768033841080a735aaec1bff9393c6cba9acb82
 
 build:
   noarch: python

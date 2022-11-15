@@ -156,5 +156,6 @@ Feedstock Maintainers
 =====================
 
 * [@comrumino](https://github.com/comrumino/)
+* [@jacobfeder](https://github.com/jacobfeder/)
 * [@mtsolmn](https://github.com/mtsolmn/)
 

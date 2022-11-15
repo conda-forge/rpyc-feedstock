@@ -32,10 +32,10 @@ test:
     - rpyc.utils
   commands:
     - pip check
+    - rpyc_classic --help
+    - rpyc_registry --help
     - rpyc_classic.py --help
     - rpyc_registry.py --help
-    - rpyc_classic
-    - rpyc_registry
   requires:
     - pip
 

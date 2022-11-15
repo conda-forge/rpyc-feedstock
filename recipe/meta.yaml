@@ -32,6 +32,8 @@ test:
     - rpyc.utils
   commands:
     - pip check
+    - rpyc_classic.py --help
+    - rpyc_registry.py --help
   requires:
     - pip
 
@@ -56,3 +58,4 @@ extra:
   recipe-maintainers:
     - mtsolmn
     - comrumino
+    - jacobfeder

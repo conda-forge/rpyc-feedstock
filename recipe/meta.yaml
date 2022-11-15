@@ -34,6 +34,8 @@ test:
     - pip check
     - rpyc_classic.py --help
     - rpyc_registry.py --help
+    - rpyc_classic
+    - rpyc_registry
   requires:
     - pip
 

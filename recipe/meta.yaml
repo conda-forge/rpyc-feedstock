@@ -1,5 +1,5 @@
 {% set name = "rpyc" %}
-{% set version = "5.3.0" %}
+{% set version = "6.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tomerfiliba-org/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 45a5d237490b6b48cad625c0f8be877d260ea35a6646d0227e1e46f868da8848
+  sha256: 8b73d5ae5bd055dc89635182f9625d4399e7f2dacebdbfce8bf2ad5ee590a00c
 
 build:
   noarch: python

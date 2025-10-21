@@ -37,6 +37,7 @@ test:
     - rpyc_classic.py --help
     - rpyc_registry.py --help
   requires:
+    - python {{ python_min }}
     - pip
 
 about:

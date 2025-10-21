@@ -36,8 +36,10 @@ test:
     - rpyc_registry --help
     - rpyc_classic.py --help
     - rpyc_registry.py --help
+    - pytest --pyargs rpyc
   requires:
     - pip
+    -pytest
 
 about:
   home: https://github.com/tomerfiliba-org/rpyc

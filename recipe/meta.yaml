@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - hatchling
   run:
-    - python >=3.6
+    - python >=3.7
     - plumbum
 
 test:
@@ -39,7 +39,7 @@ test:
     - pytest --pyargs rpyc
   requires:
     - pip
-    -pytest
+    - pytest
 
 about:
   home: https://github.com/tomerfiliba-org/rpyc

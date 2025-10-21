@@ -30,7 +30,6 @@ test:
     - rpyc.core
     - rpyc.lib
     - rpyc.utils
-    - rpyc.tests
   commands:
     - pip check
     - rpyc_classic --help

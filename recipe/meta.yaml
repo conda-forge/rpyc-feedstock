@@ -30,6 +30,8 @@ test:
     - rpyc.core
     - rpyc.lib
     - rpyc.utils
+  source_files:
+    - tests/test_classic.py
   commands:
     - pip check
     - rpyc_classic --help

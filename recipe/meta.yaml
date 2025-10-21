@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
-    - hatchling
+    - hatchling >=1.6.0
   run:
-    - python >=3.6
+    - python >=3.8
     - plumbum
 
 test:

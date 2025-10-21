@@ -1,5 +1,5 @@
 {% set name = "rpyc" %}
-{% set version = "5.3.1" %}
+{% set version = "6.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tomerfiliba-org/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 7fb1519174c436d8baab2eafe162311612a071a23169c0f020b10ccfda0bc5d3
+  sha256: 3492e83d7dd67011a9215612c13d92f52e96a0690fc7bbaea4b3ead1e9de5517
 
 build:
   noarch: python
@@ -17,11 +17,11 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
     - hatchling
   run:
-    - python >=3.6
+    - python >=3.7
     - plumbum
 
 test:

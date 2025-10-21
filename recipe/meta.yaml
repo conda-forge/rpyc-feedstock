@@ -30,16 +30,16 @@ test:
     - rpyc.core
     - rpyc.lib
     - rpyc.utils
+    - rpyc.tests
   commands:
     - pip check
     - rpyc_classic --help
     - rpyc_registry --help
     - rpyc_classic.py --help
     - rpyc_registry.py --help
-    - pytest --pyargs rpyc
+    - python tests/test_classic.py
   requires:
     - pip
-    - pytest
 
 about:
   home: https://github.com/tomerfiliba-org/rpyc

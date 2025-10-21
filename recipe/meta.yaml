@@ -21,7 +21,7 @@ requirements:
     - pip
     - hatchling >=1.6.0
   run:
-    - python {{ python_min }}
+    - python >={{ python_min }}
     - plumbum
 
 test:
